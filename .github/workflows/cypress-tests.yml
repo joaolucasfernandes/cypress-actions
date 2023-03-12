@@ -40,7 +40,7 @@ jobs:
   cypress-firefox-tests:
     runs-on: ubuntu-latest
     container: 
-      image: cypress/browsers:node16.18.0-chrome107-ff106-edge
+      image: cypress/browsers:node16.16.0-chrome105-ff99-edge
       options: --user 1001
     steps:
       - name: Get code
